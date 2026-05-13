@@ -121,7 +121,7 @@ async function dexstats() {
 				<!--<td><span class="dolla">${Number(rp[16])}</span></td>-->
 			</tr>
     		<tr onclick="window.location='ftm'">
-				<td><img src="https://ftm.guru/icons/ftm.svg"  style="position:relative;z-index:1"/><img src="https://equalizer.exchange/assets/logo/EQUAL.png"  style="position:relative;left:-12px"/><img src="img/lock.svg" class="velock"></td>
+				<td><img src="https://ftm1337.eliteness.network/icons/ftm.svg"  style="position:relative;z-index:1"/><img src="https://equalizer.exchange/assets/logo/EQUAL.png"  style="position:relative;left:-12px"/><img src="img/lock.svg" class="velock"></td>
 				<td><span class="dolla">$${(rp[10]/1e18 * rp[8]/1e18 * 0.2).toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4}) } </span><br> (${Number(rp[10]/1e18 * 0.2).toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4}) } FTM)</td>
 				<td><span class="dolla">$${(rp[10]/1e18 * rp[8]/1e18).toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4}) } </span><br> (${Number(rp[10]/1e18).toLocaleString(undefined, {minimumFractionDigits: 4, maximumFractionDigits: 4}) } FTM)</td>
 				<td><span class="dolla">$${(rp[0]/1e18 * rp[8]/1e18/0.2).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}) } </span> <br> (${Number(rp[0]/1e18/0.2).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2}) } FTM)</td>
